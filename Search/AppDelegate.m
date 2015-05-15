@@ -40,7 +40,7 @@
 
     // Step 3: Configure.
     self.revealController.delegate = self;
-    self.revealController.animationDuration = 0.25;
+    self.revealController.animationDuration = 0.250;
     
     // Step 4: Apply.
     self.window.rootViewController = self.revealController;
