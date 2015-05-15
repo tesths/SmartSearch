@@ -16,12 +16,6 @@
 		742E40FF1AD23FA40092556E /* FileUn.m in Sources */ = {isa = PBXBuildFile; fileRef = 742E40FE1AD23FA40092556E /* FileUn.m */; };
 		74342ADB1AD93674005AEB23 /* LeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74342AD91AD93674005AEB23 /* LeftCell.m */; };
 		74342ADC1AD93674005AEB23 /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74342ADA1AD93674005AEB23 /* LeftCell.xib */; };
-		74342AE01AD93F6E005AEB23 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74342ADE1AD93F6E005AEB23 /* CollectionViewController.m */; };
-		74342AE11AD93F6E005AEB23 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74342ADF1AD93F6E005AEB23 /* CollectionViewController.xib */; };
-		74342AE51AD93F7D005AEB23 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74342AE31AD93F7D005AEB23 /* SettingViewController.m */; };
-		74342AE61AD93F7D005AEB23 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74342AE41AD93F7D005AEB23 /* SettingViewController.xib */; };
-		74342AEA1AD93F88005AEB23 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74342AE81AD93F88005AEB23 /* HelpViewController.m */; };
-		74342AEB1AD93F88005AEB23 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74342AE91AD93F88005AEB23 /* HelpViewController.xib */; };
 		74342AEF1AD942ED005AEB23 /* SearchNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74342AEE1AD942ED005AEB23 /* SearchNaviController.m */; };
 		7462C7A61AE66FF6000F23B7 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7462C7961AE66FF6000F23B7 /* MJRefresh.bundle */; };
 		7462C7A71AE66FF6000F23B7 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7462C7991AE66FF6000F23B7 /* MJRefreshBaseView.m */; };
@@ -31,16 +25,22 @@
 		7462C7AB1AE66FF6000F23B7 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7462C7A11AE66FF6000F23B7 /* UIScrollView+MJExtension.m */; };
 		7462C7AC1AE66FF6000F23B7 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7462C7A31AE66FF6000F23B7 /* UIScrollView+MJRefresh.m */; };
 		7462C7AD1AE66FF6000F23B7 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7462C7A51AE66FF6000F23B7 /* UIView+MJExtension.m */; };
+		746AA5951B05F69500A00F5F /* BaiduTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746AA5841B05F69500A00F5F /* BaiduTableViewController.m */; };
+		746AA5961B05F69500A00F5F /* HaosouTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746AA5861B05F69500A00F5F /* HaosouTableViewController.m */; };
+		746AA5971B05F69500A00F5F /* WikiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746AA5881B05F69500A00F5F /* WikiTableViewController.m */; };
+		746AA5981B05F69500A00F5F /* ZhihuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746AA58A1B05F69500A00F5F /* ZhihuTableViewController.m */; };
+		746AA5991B05F69500A00F5F /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746AA58D1B05F69500A00F5F /* CollectionViewController.m */; };
+		746AA59A1B05F69500A00F5F /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 746AA58E1B05F69500A00F5F /* CollectionViewController.xib */; };
+		746AA59B1B05F69500A00F5F /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746AA5901B05F69500A00F5F /* HelpViewController.m */; };
+		746AA59C1B05F69500A00F5F /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 746AA5911B05F69500A00F5F /* HelpViewController.xib */; };
+		746AA59D1B05F69500A00F5F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746AA5931B05F69500A00F5F /* SettingViewController.m */; };
+		746AA59E1B05F69500A00F5F /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 746AA5941B05F69500A00F5F /* SettingViewController.xib */; };
 		748D93CD1AD3EFFE00FFFB0E /* SearchApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 748D93CC1AD3EFFE00FFFB0E /* SearchApi.m */; };
 		749F1D7A1AD8DB52000E46BB /* SearchWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 749F1D791AD8DB52000E46BB /* SearchWeb.m */; };
 		74A12BFD1AD0D551000FFE22 /* SearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A12BFC1AD0D551000FFE22 /* SearchTextField.m */; };
 		74A12C001AD0F1AD000FFE22 /* SearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A12BFF1AD0F1AD000FFE22 /* SearchModel.m */; };
 		74A12C031AD11D6D000FFE22 /* SearchDetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A12C021AD11D6D000FFE22 /* SearchDetModel.m */; };
 		74B544FD1ACD457C00FA14EE /* QCSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B544FC1ACD457C00FA14EE /* QCSlideSwitchView.m */; };
-		74B545031ACD474100FA14EE /* BaiduTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B545021ACD474100FA14EE /* BaiduTableViewController.m */; };
-		74B545061ACD474A00FA14EE /* ZhihuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B545051ACD474A00FA14EE /* ZhihuTableViewController.m */; };
-		74B545091ACD475600FA14EE /* HaosouTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B545081ACD475600FA14EE /* HaosouTableViewController.m */; };
-		74B5450C1ACD476000FA14EE /* WikiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B5450B1ACD476000FA14EE /* WikiTableViewController.m */; };
 		74B64A8D1ACCC84100008ADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B64A8C1ACCC84100008ADF /* main.m */; };
 		74B64A901ACCC84100008ADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B64A8F1ACCC84100008ADF /* AppDelegate.m */; };
 		74B64A931ACCC84100008ADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B64A921ACCC84100008ADF /* ViewController.m */; };
@@ -83,15 +83,6 @@
 		74342AD81AD93674005AEB23 /* LeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftCell.h; sourceTree = "<group>"; };
 		74342AD91AD93674005AEB23 /* LeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftCell.m; sourceTree = "<group>"; };
 		74342ADA1AD93674005AEB23 /* LeftCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
-		74342ADD1AD93F6E005AEB23 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = ../CollectionViewController.h; sourceTree = "<group>"; };
-		74342ADE1AD93F6E005AEB23 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = ../CollectionViewController.m; sourceTree = "<group>"; };
-		74342ADF1AD93F6E005AEB23 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewController.xib; path = ../CollectionViewController.xib; sourceTree = "<group>"; };
-		74342AE21AD93F7D005AEB23 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = ../SettingViewController.h; sourceTree = "<group>"; };
-		74342AE31AD93F7D005AEB23 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ../SettingViewController.m; sourceTree = "<group>"; };
-		74342AE41AD93F7D005AEB23 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingViewController.xib; path = ../SettingViewController.xib; sourceTree = "<group>"; };
-		74342AE71AD93F88005AEB23 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = ../HelpViewController.h; sourceTree = "<group>"; };
-		74342AE81AD93F88005AEB23 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = ../HelpViewController.m; sourceTree = "<group>"; };
-		74342AE91AD93F88005AEB23 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HelpViewController.xib; path = ../HelpViewController.xib; sourceTree = "<group>"; };
 		74342AED1AD942ED005AEB23 /* SearchNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchNaviController.h; path = controller/SearchNaviController.h; sourceTree = "<group>"; };
 		74342AEE1AD942ED005AEB23 /* SearchNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchNaviController.m; path = controller/SearchNaviController.m; sourceTree = "<group>"; };
 		7462C7961AE66FF6000F23B7 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
@@ -110,6 +101,23 @@
 		7462C7A31AE66FF6000F23B7 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		7462C7A41AE66FF6000F23B7 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		7462C7A51AE66FF6000F23B7 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		746AA5831B05F69500A00F5F /* BaiduTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduTableViewController.h; sourceTree = "<group>"; };
+		746AA5841B05F69500A00F5F /* BaiduTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduTableViewController.m; sourceTree = "<group>"; };
+		746AA5851B05F69500A00F5F /* HaosouTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaosouTableViewController.h; sourceTree = "<group>"; };
+		746AA5861B05F69500A00F5F /* HaosouTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaosouTableViewController.m; sourceTree = "<group>"; };
+		746AA5871B05F69500A00F5F /* WikiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiTableViewController.h; sourceTree = "<group>"; };
+		746AA5881B05F69500A00F5F /* WikiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiTableViewController.m; sourceTree = "<group>"; };
+		746AA5891B05F69500A00F5F /* ZhihuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhihuTableViewController.h; sourceTree = "<group>"; };
+		746AA58A1B05F69500A00F5F /* ZhihuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhihuTableViewController.m; sourceTree = "<group>"; };
+		746AA58C1B05F69500A00F5F /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		746AA58D1B05F69500A00F5F /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		746AA58E1B05F69500A00F5F /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		746AA58F1B05F69500A00F5F /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		746AA5901B05F69500A00F5F /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		746AA5911B05F69500A00F5F /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		746AA5921B05F69500A00F5F /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		746AA5931B05F69500A00F5F /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		746AA5941B05F69500A00F5F /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 		748D93CB1AD3EFFE00FFFB0E /* SearchApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchApi.h; sourceTree = "<group>"; };
 		748D93CC1AD3EFFE00FFFB0E /* SearchApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchApi.m; sourceTree = "<group>"; };
 		748D93CE1AD3F23600FFFB0E /* UrlApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlApi.h; sourceTree = "<group>"; };
@@ -123,14 +131,6 @@
 		74A12C021AD11D6D000FFE22 /* SearchDetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetModel.m; sourceTree = "<group>"; };
 		74B544FB1ACD457C00FA14EE /* QCSlideSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCSlideSwitchView.h; sourceTree = "<group>"; };
 		74B544FC1ACD457C00FA14EE /* QCSlideSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCSlideSwitchView.m; sourceTree = "<group>"; };
-		74B545011ACD474100FA14EE /* BaiduTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaiduTableViewController.h; path = ../BaiduTableViewController.h; sourceTree = "<group>"; };
-		74B545021ACD474100FA14EE /* BaiduTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaiduTableViewController.m; path = ../BaiduTableViewController.m; sourceTree = "<group>"; };
-		74B545041ACD474A00FA14EE /* ZhihuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZhihuTableViewController.h; path = ../ZhihuTableViewController.h; sourceTree = "<group>"; };
-		74B545051ACD474A00FA14EE /* ZhihuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZhihuTableViewController.m; path = ../ZhihuTableViewController.m; sourceTree = "<group>"; };
-		74B545071ACD475600FA14EE /* HaosouTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HaosouTableViewController.h; path = ../HaosouTableViewController.h; sourceTree = "<group>"; };
-		74B545081ACD475600FA14EE /* HaosouTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HaosouTableViewController.m; path = ../HaosouTableViewController.m; sourceTree = "<group>"; };
-		74B5450A1ACD476000FA14EE /* WikiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WikiTableViewController.h; path = ../WikiTableViewController.h; sourceTree = "<group>"; };
-		74B5450B1ACD476000FA14EE /* WikiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WikiTableViewController.m; path = ../WikiTableViewController.m; sourceTree = "<group>"; };
 		74B64A871ACCC84100008ADF /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B64A8B1ACCC84100008ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B64A8C1ACCC84100008ADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -179,22 +179,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		74342AEC1AD93F98005AEB23 /* mainview */ = {
-			isa = PBXGroup;
-			children = (
-				74342ADD1AD93F6E005AEB23 /* CollectionViewController.h */,
-				74342ADE1AD93F6E005AEB23 /* CollectionViewController.m */,
-				74342ADF1AD93F6E005AEB23 /* CollectionViewController.xib */,
-				74342AE21AD93F7D005AEB23 /* SettingViewController.h */,
-				74342AE31AD93F7D005AEB23 /* SettingViewController.m */,
-				74342AE41AD93F7D005AEB23 /* SettingViewController.xib */,
-				74342AE71AD93F88005AEB23 /* HelpViewController.h */,
-				74342AE81AD93F88005AEB23 /* HelpViewController.m */,
-				74342AE91AD93F88005AEB23 /* HelpViewController.xib */,
-			);
-			path = mainview;
-			sourceTree = "<group>";
-		};
 		7462C7951AE66FF6000F23B7 /* MJRefresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,19 +202,35 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
-		749F1D7E1AD91A64000E46BB /* detview */ = {
+		746AA5821B05F69500A00F5F /* detview */ = {
 			isa = PBXGroup;
 			children = (
-				74B545011ACD474100FA14EE /* BaiduTableViewController.h */,
-				74B545021ACD474100FA14EE /* BaiduTableViewController.m */,
-				74B545041ACD474A00FA14EE /* ZhihuTableViewController.h */,
-				74B545051ACD474A00FA14EE /* ZhihuTableViewController.m */,
-				74B545071ACD475600FA14EE /* HaosouTableViewController.h */,
-				74B545081ACD475600FA14EE /* HaosouTableViewController.m */,
-				74B5450A1ACD476000FA14EE /* WikiTableViewController.h */,
-				74B5450B1ACD476000FA14EE /* WikiTableViewController.m */,
+				746AA5831B05F69500A00F5F /* BaiduTableViewController.h */,
+				746AA5841B05F69500A00F5F /* BaiduTableViewController.m */,
+				746AA5851B05F69500A00F5F /* HaosouTableViewController.h */,
+				746AA5861B05F69500A00F5F /* HaosouTableViewController.m */,
+				746AA5871B05F69500A00F5F /* WikiTableViewController.h */,
+				746AA5881B05F69500A00F5F /* WikiTableViewController.m */,
+				746AA5891B05F69500A00F5F /* ZhihuTableViewController.h */,
+				746AA58A1B05F69500A00F5F /* ZhihuTableViewController.m */,
 			);
 			path = detview;
+			sourceTree = "<group>";
+		};
+		746AA58B1B05F69500A00F5F /* mainview */ = {
+			isa = PBXGroup;
+			children = (
+				746AA58C1B05F69500A00F5F /* CollectionViewController.h */,
+				746AA58D1B05F69500A00F5F /* CollectionViewController.m */,
+				746AA58E1B05F69500A00F5F /* CollectionViewController.xib */,
+				746AA58F1B05F69500A00F5F /* HelpViewController.h */,
+				746AA5901B05F69500A00F5F /* HelpViewController.m */,
+				746AA5911B05F69500A00F5F /* HelpViewController.xib */,
+				746AA5921B05F69500A00F5F /* SettingViewController.h */,
+				746AA5931B05F69500A00F5F /* SettingViewController.m */,
+				746AA5941B05F69500A00F5F /* SettingViewController.xib */,
+			);
+			path = mainview;
 			sourceTree = "<group>";
 		};
 		74B544FA1ACD457C00FA14EE /* three */ = {
@@ -338,8 +338,8 @@
 		74B64AB31ACCD45200008ADF /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				749F1D7E1AD91A64000E46BB /* detview */,
-				74342AEC1AD93F98005AEB23 /* mainview */,
+				746AA5821B05F69500A00F5F /* detview */,
+				746AA58B1B05F69500A00F5F /* mainview */,
 				74B64AB91ACCD4A300008ADF /* MainViewController.h */,
 				74B64ABA1ACCD4A300008ADF /* MainViewController.m */,
 				74B64ABB1ACCD4A300008ADF /* MainViewController.xib */,
@@ -509,15 +509,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74342AE11AD93F6E005AEB23 /* CollectionViewController.xib in Resources */,
-				74342AEB1AD93F88005AEB23 /* HelpViewController.xib in Resources */,
 				7462C7A61AE66FF6000F23B7 /* MJRefresh.bundle in Resources */,
-				74342AE61AD93F7D005AEB23 /* SettingViewController.xib in Resources */,
 				74B64A961ACCC84100008ADF /* Main.storyboard in Resources */,
+				746AA59C1B05F69500A00F5F /* HelpViewController.xib in Resources */,
 				74342ADC1AD93674005AEB23 /* LeftCell.xib in Resources */,
 				74B64A9B1ACCC84100008ADF /* LaunchScreen.xib in Resources */,
 				74B64AC21ACCD50400008ADF /* LeftViewController.xib in Resources */,
 				74E5F9B01AD50BF400C52709 /* SearchCell.xib in Resources */,
+				746AA59E1B05F69500A00F5F /* SettingViewController.xib in Resources */,
+				746AA59A1B05F69500A00F5F /* CollectionViewController.xib in Resources */,
 				7406FDB81ADA56EC00701F80 /* CollectionCell.xib in Resources */,
 				74B64A981ACCC84100008ADF /* Images.xcassets in Resources */,
 				74B64ABD1ACCD4A300008ADF /* MainViewController.xib in Resources */,
@@ -571,27 +571,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746AA5961B05F69500A00F5F /* HaosouTableViewController.m in Sources */,
 				748D93CD1AD3EFFE00FFFB0E /* SearchApi.m in Sources */,
-				74342AEA1AD93F88005AEB23 /* HelpViewController.m in Sources */,
-				74B545091ACD475600FA14EE /* HaosouTableViewController.m in Sources */,
 				7462C7AC1AE66FF6000F23B7 /* UIScrollView+MJRefresh.m in Sources */,
 				740E95DD1ADA1A100090DB16 /* LocalData.m in Sources */,
 				74B64A931ACCC84100008ADF /* ViewController.m in Sources */,
 				7462C7A81AE66FF6000F23B7 /* MJRefreshConst.m in Sources */,
 				7462C7AD1AE66FF6000F23B7 /* UIView+MJExtension.m in Sources */,
 				74E5F9AF1AD50BF400C52709 /* SearchCell.m in Sources */,
+				746AA5991B05F69500A00F5F /* CollectionViewController.m in Sources */,
 				7462C7A71AE66FF6000F23B7 /* MJRefreshBaseView.m in Sources */,
-				74B545031ACD474100FA14EE /* BaiduTableViewController.m in Sources */,
-				74B5450C1ACD476000FA14EE /* WikiTableViewController.m in Sources */,
 				74B64AC11ACCD50400008ADF /* LeftViewController.m in Sources */,
 				7462C7AA1AE66FF6000F23B7 /* MJRefreshHeaderView.m in Sources */,
 				74B64A901ACCC84100008ADF /* AppDelegate.m in Sources */,
-				74342AE01AD93F6E005AEB23 /* CollectionViewController.m in Sources */,
 				7406FDB71ADA56EC00701F80 /* CollectionCell.m in Sources */,
 				742E40FF1AD23FA40092556E /* FileUn.m in Sources */,
-				74B545061ACD474A00FA14EE /* ZhihuTableViewController.m in Sources */,
+				746AA59D1B05F69500A00F5F /* SettingViewController.m in Sources */,
+				746AA5981B05F69500A00F5F /* ZhihuTableViewController.m in Sources */,
 				74A12BFD1AD0D551000FFE22 /* SearchTextField.m in Sources */,
 				742E40FC1AD23C8A0092556E /* SearchDB.m in Sources */,
+				746AA5951B05F69500A00F5F /* BaiduTableViewController.m in Sources */,
 				74B64A8D1ACCC84100008ADF /* main.m in Sources */,
 				74A12C031AD11D6D000FFE22 /* SearchDetModel.m in Sources */,
 				7462C7A91AE66FF6000F23B7 /* MJRefreshFooterView.m in Sources */,
@@ -599,10 +598,11 @@
 				74B544FD1ACD457C00FA14EE /* QCSlideSwitchView.m in Sources */,
 				7462C7AB1AE66FF6000F23B7 /* UIScrollView+MJExtension.m in Sources */,
 				74A12C001AD0F1AD000FFE22 /* SearchModel.m in Sources */,
-				74342AE51AD93F7D005AEB23 /* SettingViewController.m in Sources */,
 				74B64ABC1ACCD4A300008ADF /* MainViewController.m in Sources */,
+				746AA59B1B05F69500A00F5F /* HelpViewController.m in Sources */,
 				749F1D7A1AD8DB52000E46BB /* SearchWeb.m in Sources */,
 				74342ADB1AD93674005AEB23 /* LeftCell.m in Sources */,
+				746AA5971B05F69500A00F5F /* WikiTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
