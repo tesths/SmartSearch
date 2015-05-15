@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HelpViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="知识搜索 1.0版" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZD-Rh-0rU">
+                    <rect key="frame" x="20" y="13" width="114" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="VrC-cq-phL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用说明" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPh-zl-XKc">
+                    <rect key="frame" x="20" y="42" width="68" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="MyO-qW-oCv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一、在首页点击标题栏的搜索图标，输入关键字，然后点搜索按钮或者回车键就可以进行搜索。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2T-Mc-tqI">
+                    <rect key="frame" x="20" y="71" width="286" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="i9Z-GD-kof"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二、在设置页面选择在APP内显示结果还是跳转到浏览器显示。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2a-cZ-6ww">
+                    <rect key="frame" x="20" y="144" width="286" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="eIf-mn-xuU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者留言" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kY-lR-Jqb">
+                    <rect key="frame" x="20" y="203" width="68" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="A5h-Ln-p2B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这个APP主要用于在互联网上快速搜索知识，现在可以搜索的网站有：百度、知乎、好搜和维基百科。它优点在于：" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsg-zc-ESA">
+                    <rect key="frame" x="17" y="232" width="286" height="84"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1、去除没用信息，节省流量。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fp3-vZ-BMb">
+                    <rect key="frame" x="20" y="319" width="286" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="LWQ-UV-pEx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2、同时在多个网站进行搜索，方便快捷。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwc-p7-uJx">
+                    <rect key="frame" x="20" y="361" width="286" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="Xhn-L2-TxH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当然以后还会加入更多的网站，敬请期待！感谢大家的使用" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2X4-wk-jFQ">
+                    <rect key="frame" x="20" y="416" width="286" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="Uep-t6-KCs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Jsg-zc-ESA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="040-el-aHX"/>
+                <constraint firstItem="fp3-vZ-BMb" firstAttribute="top" secondItem="Jsg-zc-ESA" secondAttribute="bottom" constant="3" id="1AR-xy-1kN"/>
+                <constraint firstItem="8ZD-Rh-0rU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="2M7-fI-x9t"/>
+                <constraint firstItem="Jsg-zc-ESA" firstAttribute="top" secondItem="5kY-lR-Jqb" secondAttribute="bottom" constant="8" symbolic="YES" id="3Sp-zt-Zh3"/>
+                <constraint firstItem="a2a-cZ-6ww" firstAttribute="trailing" secondItem="fp3-vZ-BMb" secondAttribute="trailing" id="4TW-gP-RBh"/>
+                <constraint firstItem="5kY-lR-Jqb" firstAttribute="leading" secondItem="fp3-vZ-BMb" secondAttribute="leading" id="E65-Ia-fdX"/>
+                <constraint firstItem="tPh-zl-XKc" firstAttribute="top" secondItem="8ZD-Rh-0rU" secondAttribute="bottom" constant="8" symbolic="YES" id="JDt-Zd-EUC"/>
+                <constraint firstItem="5kY-lR-Jqb" firstAttribute="top" secondItem="a2a-cZ-6ww" secondAttribute="bottom" constant="8" symbolic="YES" id="M6e-qK-f0f"/>
+                <constraint firstItem="Uwc-p7-uJx" firstAttribute="top" secondItem="fp3-vZ-BMb" secondAttribute="bottom" constant="8" symbolic="YES" id="Ovs-k8-F3i"/>
+                <constraint firstItem="8ZD-Rh-0rU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="13" id="Qsz-b3-Tdj"/>
+                <constraint firstItem="Jsg-zc-ESA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="17" id="QzL-wF-zu6"/>
+                <constraint firstItem="2X4-wk-jFQ" firstAttribute="trailing" secondItem="Uwc-p7-uJx" secondAttribute="trailing" id="Rdo-hr-NFL"/>
+                <constraint firstItem="t2T-Mc-tqI" firstAttribute="trailing" secondItem="a2a-cZ-6ww" secondAttribute="trailing" id="Rju-GK-vGC"/>
+                <constraint firstAttribute="trailing" secondItem="t2T-Mc-tqI" secondAttribute="trailing" constant="14" id="bYx-62-eMl"/>
+                <constraint firstItem="Uwc-p7-uJx" firstAttribute="leading" secondItem="2X4-wk-jFQ" secondAttribute="leading" id="e2J-vh-IXo"/>
+                <constraint firstItem="Uwc-p7-uJx" firstAttribute="leading" secondItem="fp3-vZ-BMb" secondAttribute="leading" id="eWC-P4-bf0"/>
+                <constraint firstItem="8ZD-Rh-0rU" firstAttribute="leading" secondItem="tPh-zl-XKc" secondAttribute="leading" id="egv-65-1IV"/>
+                <constraint firstItem="a2a-cZ-6ww" firstAttribute="top" secondItem="t2T-Mc-tqI" secondAttribute="bottom" constant="8" symbolic="YES" id="gFv-yk-736"/>
+                <constraint firstAttribute="bottom" secondItem="2X4-wk-jFQ" secondAttribute="bottom" constant="24" id="hcT-6b-Uwo"/>
+                <constraint firstItem="5kY-lR-Jqb" firstAttribute="leading" secondItem="a2a-cZ-6ww" secondAttribute="leading" id="nwr-xt-zoO"/>
+                <constraint firstItem="a2a-cZ-6ww" firstAttribute="leading" secondItem="t2T-Mc-tqI" secondAttribute="leading" id="r6d-rI-yo3"/>
+                <constraint firstItem="2X4-wk-jFQ" firstAttribute="top" secondItem="Uwc-p7-uJx" secondAttribute="bottom" constant="8" symbolic="YES" id="tId-H6-qL5"/>
+                <constraint firstItem="tPh-zl-XKc" firstAttribute="leading" secondItem="t2T-Mc-tqI" secondAttribute="leading" id="uZ1-8o-fsR"/>
+                <constraint firstItem="Uwc-p7-uJx" firstAttribute="trailing" secondItem="fp3-vZ-BMb" secondAttribute="trailing" id="xSM-9s-ZIA"/>
+                <constraint firstItem="t2T-Mc-tqI" firstAttribute="top" secondItem="tPh-zl-XKc" secondAttribute="bottom" constant="8" symbolic="YES" id="yII-mO-vcS"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

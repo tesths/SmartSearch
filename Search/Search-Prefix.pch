@@ -1,0 +1,40 @@
+//
+//  Search-Prefix.pch
+//  Search
+//
+//  Created by  plusub on 15-4-2.
+//  Copyright (c) 2015年 plusub. All rights reserved.
+//
+
+#ifndef Search_Search_Prefix_pch
+#define Search_Search_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Color.h"
+#import "Constants.h"
+#import <PKRevealController/PKRevealController.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <Shimmer/FBShimmeringView.h>
+#import "BlocksKit+UIKit.h"
+#import <Mantle/Mantle.h>
+#import <FMDB/FMDatabase.h>
+#import "MacroUtils.h"
+#import "FileUn.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "UrlApi.h"
+#import <AFNetworking-RACExtensions/RACAFNetworking.h>
+#import "SearchApi.h"
+#import "SearchCell.h"
+#import <Masonry/Masonry.h>
+#import <NJKWebViewProgress/NJKWebViewProgress.h>
+#import <NJKWebViewProgress/NJKWebViewProgressView.h>
+#import <SVWebViewController/SVWebViewController.h>
+#import "SearchNaviController.h"
+#import "LocalData.h"
+#import <RJBlurAlertView/RJBlurAlertView.h>
+#import "MJRefresh.h"
+#import "SearchModel.h"
+
+
+#endif
