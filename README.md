@@ -1,6 +1,5 @@
 # 智能搜索
 
-> We build in Cocoapods（version 0.39.0）Swift2.2 and Xcode 7.3.
 
 
 ---
